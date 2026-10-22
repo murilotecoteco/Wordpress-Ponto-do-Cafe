@@ -1,0 +1,15 @@
+# Dados persistentes e arquivos gerados pelo Docker/WordPress
+wordpress_data/
+db_data/
+wp-content/uploads/
+
+# Segredos e configurações locais
+.env
+.env.*
+!.env.example
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+
